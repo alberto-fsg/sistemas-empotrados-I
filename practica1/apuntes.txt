@@ -1,0 +1,40 @@
+EJEMPLOS USO REGISTROS MSP-EXP430FR2355
+
+/** Encender el LED L1 (P2.0) **/
+P2OUT |= BIT0;  // Poner en ALTO P2.0 para encender LED L1
+
+/** Apagar el LED L3 (P2.2) **/
+P2OUT &= ~BIT2;  // Poner en BAJO P2.2 para apagar LED L3
+
+/** Verificar si el botón S2 (P1.2) está presionado **/
+if (P1IN & BIT2) {  // Si P1.2 está en ALTO
+    // El botón S2 está presionado, ejecutar acción
+}
+
+/** Habilitar resistencia pull-up para el botón S4 (P1.4) **/
+P1REN |= BIT4;  // Habilitar resistencia pull-up/down en P1.4
+P1OUT |= BIT4;  // Configurar en modo pull-up
+
+/** Activar el segmento A (P3.4) en el display de 7 segmentos **/
+P3OUT |= BIT4;  // Encender segmento A
+
+/** Habilitar la visualización en el display DIS2 (P3.2) **/
+P3OUT |= BIT2;  // Activar el display DIS2
+
+/** Parpadear el LED L2 (P2.1) cada 500 ms **/
+P2OUT ^= BIT1;  // Alternar estado de P2.1 (XOR)
+
+/** Apagar todos los LEDs conectados a P4 (L4 - L7) **/
+P4OUT &= ~(BIT4 | BIT5 | BIT6 | BIT7);  // Poner en BAJO P4.4, P4.5, P4.6, P4.7
+
+/** Encender simultáneamente los segmentos A, B y C del display **/
+P3OUT |= (BIT4 | BIT5 | BIT6);  // Encender segmentos A, B y C
+
+/** Configurar botones S1-S6 (P1.1 - P1.6) como entradas **/
+P1DIR &= ~(BIT1 | BIT2 | BIT3 | BIT4 | BIT5 | BIT6);  // Configurar como entrada
+
+/** Esperar hasta que se presione el botón S5 (P1.5) **/
+while (!(P1IN & BIT5));  // Esperar mientras P1.5 esté en BAJO
+
+/** Alternar el estado del display DIS1 (P3.1) **/
+P3OUT ^= BIT1;  // Cambiar estado de P3.1 (XOR)
