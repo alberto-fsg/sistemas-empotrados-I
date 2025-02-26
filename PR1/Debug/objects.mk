@@ -4,5 +4,5 @@
 
 USER_OBJS :=
 
-LIBS := -lfrwp_init.a -l"D:/jorgeAlberto/Modulos_PR/Modulos_PR/Debug/Modulos_PR.lib" -llibc.a
+LIBS := -lfrwp_init.a -llibc.a
 

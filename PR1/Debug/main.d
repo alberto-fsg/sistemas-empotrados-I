@@ -18,9 +18,9 @@ main.obj: C:/ti/ccs1040/ccs/ccs_base/msp430/include/in430.h
 main.obj: C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include/intrinsics.h
 main.obj: C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include/intrinsics_legacy_undefs.h
 main.obj: C:/ti/ccs1040/ccs/ccs_base/msp430/include/legacy.h
-main.obj: D:/jorgeAlberto/Modulos_PR/Modulos_PR/InitSystem.h
-main.obj: D:/jorgeAlberto/Modulos_PR/Modulos_PR/display.h
-main.obj: D:/jorgeAlberto/Modulos_PR/Modulos_PR/clock.h
+main.obj: D:/sistemas-empotrados-I-main/sistemas-empotrados-I-main/Modulos_PR/InitSystem.h
+main.obj: D:/sistemas-empotrados-I-main/sistemas-empotrados-I-main/Modulos_PR/display.h
+main.obj: D:/sistemas-empotrados-I-main/sistemas-empotrados-I-main/Modulos_PR/clock.h
 
 ../main.c:
 
@@ -58,9 +58,9 @@ C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include/intrinsics_leg
 
 C:/ti/ccs1040/ccs/ccs_base/msp430/include/legacy.h:
 
-D:/jorgeAlberto/Modulos_PR/Modulos_PR/InitSystem.h:
+D:/sistemas-empotrados-I-main/sistemas-empotrados-I-main/Modulos_PR/InitSystem.h:
 
-D:/jorgeAlberto/Modulos_PR/Modulos_PR/display.h:
+D:/sistemas-empotrados-I-main/sistemas-empotrados-I-main/Modulos_PR/display.h:
 
-D:/jorgeAlberto/Modulos_PR/Modulos_PR/clock.h:
+D:/sistemas-empotrados-I-main/sistemas-empotrados-I-main/Modulos_PR/clock.h:
 

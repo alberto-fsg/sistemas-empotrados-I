@@ -188,7 +188,7 @@ int main(void)
     prueba_leds ();
     // prueba_pulsadores ();
     // prueba_seven_segment_display();
-    // prueba_seven_segment_display_interrupcion();
+    prueba_seven_segment_display_interrupcion();
 
     while(1)
     {
